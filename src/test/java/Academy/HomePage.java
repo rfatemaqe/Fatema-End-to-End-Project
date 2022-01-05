@@ -32,6 +32,8 @@ public void basePageNavigation(String username, String password, String text) th
 	lg.getPassword().sendKeys(password);
 	lg.getLogin().click();
 	log.info(text);
+	
+	System.out.println();
 	}
 
 	@AfterTest
